@@ -52,5 +52,16 @@
     curl -L -o ~/.vim/colors/desert256.vim https://www.vim.org/scripts/download_script.php?src_id=12498
   ```
 
-7. gitconfig内のremote先を変更する。
+7. vimにcopilotを接続する
+  ```
+    git clone https://github.com/github/copilot.vim.git \
+    ~/.vim/pack/github/start/copilot.vim
+  ```
+  ```
+    :Copilot setup
+  ```
+  ここにワンタイムパスとURLが表示されるので、URLに飛んでパスを入力する。
+  数秒後に、vimでpress Enterがでる。
+
+8. gitconfig内のremote先を変更する。
 
