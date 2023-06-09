@@ -62,6 +62,11 @@
   ```
   ここにワンタイムパスとURLが表示されるので、URLに飛んでパスを入力する。
   数秒後に、vimでpress Enterがでる。
+  
+9. silver searcherのインストール
+  ```
+  sudo yum install the_silver_searcher
+  ```
 
-8. gitconfig内のremote先を変更する。
+10. gitconfig内のremote先を変更する。
 
